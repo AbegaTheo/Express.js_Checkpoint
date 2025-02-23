@@ -49,11 +49,11 @@ public\Screenshots\Screenshot\_PAGE\_ACCUEIL.png
 
 ### 💼 Page Nos Services
 
-public\Screenshots\Screenshot\_*PAGE\_*NOS\_SERVICES.png
+public\Screenshots\Screenshot\_PAGE\_NOS\_SERVICES.png
 
 ### 📞 Page Nous Contacter
 
-public\Screenshots\Screenshot\_*PAGE*\_NOUS\_CONTACTER.png
+public\Screenshots\Screenshot\_PAGE\_NOUS\_CONTACTER.png
 
 ---
 
