@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nous Contacter - Mon Site</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/image/logo/logo.png" class="d-inline-block align-top rounded-circle" alt="Logo" width="50" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/services">Nos Services</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#">Nous Contacter</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="bg-primary banner-contact text-white text-center py-5" data-aos="fade-down" data-aos-duration="1500" style="background-image: url('/image/banner/telephone-4440525_1280.jpg'); background-size: contain; background-position: center; background-repeat: no-repeat; background-attachment: fixed; background-blend-mode: multiply;">
+        <h1>Nous Contacter</h1>
+        <p class="banner-text">Besoin d'informations ? Envoyez-nous un message !</p>
+    </section>
+
+    <section class="container my-5" data-aos="fade-up" data-aos-duration="2000">
+        <div class="row">
+
+            <div class="col-md-6">
+                <h2>Contactez-nous</h2>
+                <p class="lead">Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.</p>
+                <form class="contact-form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nom</label>
+                        <input type="text" class="form-control" id="name" placeholder="Entrez votre nom" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="message" rows="5" cols="50" placeholder="Entrez Votre Message" required></textarea>
+                        <div id="emailHelp" class="form-text">Nous ne partagerons jamais votre e-mail avec qui que ce soit d'autre.</div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+            </div>
+
+            <div class="col-md-6" data-aos="fade-left" data-aos-duration="3000">
+                <h2>Nos Coordonnées</h2>
+                <p class="lead"><strong class="fw-bold">Adresse :</strong> 123 Rue des Entrepreneurs, Abidjan</p>
+                <p class="lead"><strong class="fw-bold">Email :</strong><a href="mailto:ada.dev@gmail.com"> ada.dev@gmail.com</a></p>
+                <p class="lead"><strong class="fw-bold">Téléphone :</strong> +225 07 87 78 51 72</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093746!2d144.9537353153168!3d-37.81627977975179!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5770a7bdee5f5e1!2sMon%20Entreprise!5e0!3m2!1sfr!2sci!4v1614123456789" width="100%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="social-icons d-flex justify-content-center mt-3 gap-2">
+                    <h5 class="fw-bold text-primary mt-3 px-3">Réseaux Sociaux :</h5>
+                    <a href="https://www.facebook.com/profile.php?id=61556560185637" target="_blank"><i class="bi bi-facebook fs-2 text-primary"></i></a>
+                    <a href="https://github.com/AbegaTheo" target="_blank"><i class="bi bi-github fs-2 text-primary"></i></a>
+                    <a href="https://www.linkedin.com/in/abel-agoh-a1a731158/" target="_blank"><i class="bi bi-linkedin fs-2 text-primary"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Mon Site - Tous droits réservés</p>
+    </footer>
+
+    <!-- Animate On Scroll AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>AOS.init();</script>
+  
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

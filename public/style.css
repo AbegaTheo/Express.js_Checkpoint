@@ -1,0 +1,176 @@
+/* Style du corps de la page */
+body {
+    text-align: center;
+    margin: 0;
+}
+
+/* Style de la barre de navigation */
+nav {
+    background: #007bff;
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #077df2;
+    transition: color 0.3s;
+    text-decoration: underline 5px solid white;
+}
+
+/* Style pour les Titres h1, h2 dans les sections */
+h1 {
+    font-size: 3em;
+    margin-bottom: 1em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+ h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    transition: color 0.3s;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+
+/* Style pour l'uniformisation des sections de toutes les pages */
+section {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.banner-accueil, .banner-service, .banner-contact {
+    padding: 20px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style pour les les textes des Banner */
+.banner-text {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    transition: color 0.3s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+    word-spacing: 0.05em;
+    font-weight: 300;
+}
+
+/* Style pour les card */
+.card {
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    background-color: #ebeefa;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.card-text {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    font-weight: 300;
+    transition: color 0.3s;
+    color: #666;
+}
+
+/* Style pour le Formulaire de la page de contact */
+form {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ebeefa;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    padding-left: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.contact-form button {
+    padding: 10px 60px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 1.2em;
+}
+
+.contact-form button:hover {
+    background-color: #db0d0d;
+}
+
+/* Style pour les Boutons btn des pages */
+
+.btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #db0d0d;
+}
+
+/* Style pour le footer */
+footer {
+    font-size: 1em;
+    font-weight: 400;
+}

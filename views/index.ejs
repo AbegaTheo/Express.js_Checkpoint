@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil - Mon Site</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/image/logo/logo.png" class="d-inline-block align-top rounded-circle" alt="Logo" width="50" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/services">Nos Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/contact">Nous Contacter</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Banniere -->
+    <section class="bg-primary banner-accueil text-white text-center py-5" data-aos="fade-down" data-aos-duration="1500" style="background-image: url('/image/banner/image_une.png'); background-size: contain; background-position: center; background-repeat: no-repeat; background-attachment: fixed; background-blend-mode: multiply;">
+        <h1>Bienvenue sur Mon Site</h1>
+        <p class="banner-text">Des solutions innovantes pour un avenir meilleur</p>
+    </section>
+
+    <!-- Section notre mission et nos services -->
+    <section class="container my-5" data-aos="fade-up" data-aos-duration="2000">
+        <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title">Notre Mission</h2>
+                  <p class="card-text">Fournir des services de qualité pour répondre <br> à vos besoins numériques.</p>
+                  <a href="/services" class="btn btn-primary">Découvrir notre mission</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h2 class="card-title">Nos Engagements</h2>
+                  <p class="card-text">Expertise, innovation et satisfaction <br> client sont au cœur de notre approche.</p>
+                  <a href="/services" class="btn btn-primary">Découvrir nos engagements</a>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Section pourquoi nous choisir -->
+    <section class="bg-light py-5" data-aos="fade-up" data-aos-duration="2000">
+        <div class="container">
+            <h2 class="text-center">Pourquoi Nous Choisir ?</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="p-3 shadow-sm rounded bg-white">
+                        <h4>Innovation</h4>
+                        <p class="lead">Nous utilisons les dernières technologies pour un service optimal.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 shadow-sm rounded bg-white">
+                        <h4>Fiabilité</h4>
+                        <p class="lead">Des solutions robustes et sécurisées adaptées à vos besoins.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-3 shadow-sm rounded bg-white">
+                        <h4>Support 24/7</h4>
+                        <p class="lead">Une équipe toujours disponible pour vous accompagner.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2025 Mon Site - Tous droits réservés</p>
+    </footer>
+
+   <!-- Animate On Scroll AOS -->
+   <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+   <script>AOS.init();</script>
+ 
+   <!-- Bootstrap JS and Popper.js -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
