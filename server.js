@@ -17,7 +17,7 @@ const workHoursMiddleware = (req, res, next) => {
 };
 
 // Appliquer le middleware à toutes les routes
-/* app.use(workHoursMiddleware); */
+app.use(workHoursMiddleware);
 
 // Configurer EJS comme moteur de rendu
 app.set("view engine", "ejs");
